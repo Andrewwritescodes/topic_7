@@ -3,10 +3,10 @@
 languages = ['Python', 'Java', 'Javascript', 'c#', 'Swift']
 
 for language in languages:
-    print(language)
+    print(language)                         # prints languages for language list
 
-# all_languages = ' <> '.join(languages)
-# print(all_languages)
+all_languages = ' <> '.join(languages)
+print(all_languages)                        # prints all languages in languages separated by <> symbols
 
 languages.sort()
 print(languages)
